@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CA7E6FC8E00A22A9FC854D /* Pods_DeepLove.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD5A396879BFD15AF41677 /* Pods_DeepLove.framework */; };
+		B136A8661C78E569008D3AE0 /* DLConvViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B136A8651C78E569008D3AE0 /* DLConvViewController.swift */; };
+		B15AE6071C7871C40053AE2F /* apple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B15AE6061C7871C40053AE2F /* apple.jpg */; };
+		B15AE6091C7871D60053AE2F /* mnist100.json in Resources */ = {isa = PBXBuildFile; fileRef = B15AE6081C7871D60053AE2F /* mnist100.json */; };
+		B15AE60B1C7878380053AE2F /* DLImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15AE60A1C7878380053AE2F /* DLImageUtility.swift */; };
+		B15AE60D1C7888500053AE2F /* DLShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = B15AE60C1C7888500053AE2F /* DLShaders.metal */; };
+		B15AE60F1C7888C20053AE2F /* DLMetalManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15AE60E1C7888C20053AE2F /* DLMetalManager.swift */; };
+		B15AE6131C7893800053AE2F /* DLNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15AE6121C7893800053AE2F /* DLNetworkManager.swift */; };
+		B15AE6151C789DC80053AE2F /* weights.json in Resources */ = {isa = PBXBuildFile; fileRef = B15AE6141C789DC80053AE2F /* weights.json */; };
+		B16F078C1C95DAF0003A3633 /* nonen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B16F078B1C95DAF0003A3633 /* nonen.jpg */; };
+		B1D916F01C931969000A1974 /* tomato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D916EF1C931969000A1974 /* tomato.jpg */; };
+		B1E7EDE21C797D3E007BBD71 /* minipple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1E7EDE11C797D3E007BBD71 /* minipple.jpg */; };
+		B1E85F4A1C786B36009CCFBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F491C786B36009CCFBD /* AppDelegate.swift */; };
+		B1E85F4F1C786B36009CCFBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E85F4D1C786B36009CCFBD /* Main.storyboard */; };
+		B1E85F511C786B36009CCFBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E85F501C786B36009CCFBD /* Assets.xcassets */; };
+		B1E85F541C786B36009CCFBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1E85F521C786B36009CCFBD /* LaunchScreen.storyboard */; };
+		B1E85F5F1C786B36009CCFBD /* DeepLoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F5E1C786B36009CCFBD /* DeepLoveTests.swift */; };
+		B1E85F6A1C786B36009CCFBD /* DeepLoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F691C786B36009CCFBD /* DeepLoveUITests.swift */; };
+		B1E85F781C786B70009CCFBD /* DLMNISTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F771C786B70009CCFBD /* DLMNISTViewController.swift */; };
+		B1E85F7A1C786BAA009CCFBD /* DLMetalDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F791C786BAA009CCFBD /* DLMetalDevice.swift */; };
+		B1E85F7D1C786E11009CCFBD /* DLLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F7C1C786E11009CCFBD /* DLLayer.swift */; };
+		B1E85F811C786EDB009CCFBD /* DLDataUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E85F801C786EDB009CCFBD /* DLDataUtility.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1E85F5B1C786B36009CCFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F3E1C786B36009CCFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E85F451C786B36009CCFBD;
+			remoteInfo = DeepLove;
+		};
+		B1E85F661C786B36009CCFBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1E85F3E1C786B36009CCFBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1E85F451C786B36009CCFBD;
+			remoteInfo = DeepLove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B1D58ED81C78701E00E2A538 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55DD5A396879BFD15AF41677 /* Pods_DeepLove.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeepLove.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		637756C7EB15E22D61392F0E /* Pods-DeepLove.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLove.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLove/Pods-DeepLove.debug.xcconfig"; sourceTree = "<group>"; };
+		A83F4BD65BA0AB0A4E237591 /* Pods-DeepLove.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeepLove.release.xcconfig"; path = "Pods/Target Support Files/Pods-DeepLove/Pods-DeepLove.release.xcconfig"; sourceTree = "<group>"; };
+		B136A8651C78E569008D3AE0 /* DLConvViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLConvViewController.swift; sourceTree = "<group>"; };
+		B15AE6061C7871C40053AE2F /* apple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apple.jpg; sourceTree = "<group>"; };
+		B15AE6081C7871D60053AE2F /* mnist100.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mnist100.json; sourceTree = "<group>"; };
+		B15AE60A1C7878380053AE2F /* DLImageUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLImageUtility.swift; sourceTree = "<group>"; };
+		B15AE60C1C7888500053AE2F /* DLShaders.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = DLShaders.metal; sourceTree = "<group>"; };
+		B15AE60E1C7888C20053AE2F /* DLMetalManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLMetalManager.swift; sourceTree = "<group>"; };
+		B15AE6121C7893800053AE2F /* DLNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLNetworkManager.swift; sourceTree = "<group>"; };
+		B15AE6141C789DC80053AE2F /* weights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weights.json; sourceTree = "<group>"; };
+		B16F078B1C95DAF0003A3633 /* nonen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nonen.jpg; sourceTree = "<group>"; };
+		B1D916EF1C931969000A1974 /* tomato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tomato.jpg; sourceTree = "<group>"; };
+		B1E7EDE11C797D3E007BBD71 /* minipple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = minipple.jpg; sourceTree = "<group>"; };
+		B1E85F461C786B36009CCFBD /* DeepLove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepLove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E85F491C786B36009CCFBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1E85F4E1C786B36009CCFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1E85F501C786B36009CCFBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E85F531C786B36009CCFBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1E85F551C786B36009CCFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E85F5A1C786B36009CCFBD /* DeepLoveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLoveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E85F5E1C786B36009CCFBD /* DeepLoveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLoveTests.swift; sourceTree = "<group>"; };
+		B1E85F601C786B36009CCFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E85F651C786B36009CCFBD /* DeepLoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepLoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E85F691C786B36009CCFBD /* DeepLoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLoveUITests.swift; sourceTree = "<group>"; };
+		B1E85F6B1C786B36009CCFBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E85F771C786B70009CCFBD /* DLMNISTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLMNISTViewController.swift; sourceTree = "<group>"; };
+		B1E85F791C786BAA009CCFBD /* DLMetalDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLMetalDevice.swift; sourceTree = "<group>"; };
+		B1E85F7C1C786E11009CCFBD /* DLLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLLayer.swift; sourceTree = "<group>"; };
+		B1E85F801C786EDB009CCFBD /* DLDataUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DLDataUtility.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1E85F431C786B36009CCFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CA7E6FC8E00A22A9FC854D /* Pods_DeepLove.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F571C786B36009CCFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F621C786B36009CCFBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9E18AD90246116F29975DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				637756C7EB15E22D61392F0E /* Pods-DeepLove.debug.xcconfig */,
+				A83F4BD65BA0AB0A4E237591 /* Pods-DeepLove.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B15AE6041C7871580053AE2F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B15AE6061C7871C40053AE2F /* apple.jpg */,
+				B1D916EF1C931969000A1974 /* tomato.jpg */,
+				B16F078B1C95DAF0003A3633 /* nonen.jpg */,
+				B1E7EDE11C797D3E007BBD71 /* minipple.jpg */,
+				B15AE6141C789DC80053AE2F /* weights.json */,
+				B15AE6081C7871D60053AE2F /* mnist100.json */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		B15AE6101C7888EC0053AE2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B1E85F791C786BAA009CCFBD /* DLMetalDevice.swift */,
+				B1E85F7C1C786E11009CCFBD /* DLLayer.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B15AE6111C7888FE0053AE2F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B15AE60E1C7888C20053AE2F /* DLMetalManager.swift */,
+				B15AE6121C7893800053AE2F /* DLNetworkManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		B1B659A31C91C41B00DCB12E /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B15AE60A1C7878380053AE2F /* DLImageUtility.swift */,
+				B1E85F801C786EDB009CCFBD /* DLDataUtility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		B1E85F3D1C786B36009CCFBD = {
+			isa = PBXGroup;
+			children = (
+				B1E85F481C786B36009CCFBD /* DeepLove */,
+				B1E85F5D1C786B36009CCFBD /* DeepLoveTests */,
+				B1E85F681C786B36009CCFBD /* DeepLoveUITests */,
+				B1E85F471C786B36009CCFBD /* Products */,
+				5A9E18AD90246116F29975DB /* Pods */,
+				B976E7CEA48444CD1FF6BB1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1E85F471C786B36009CCFBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1E85F461C786B36009CCFBD /* DeepLove.app */,
+				B1E85F5A1C786B36009CCFBD /* DeepLoveTests.xctest */,
+				B1E85F651C786B36009CCFBD /* DeepLoveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1E85F481C786B36009CCFBD /* DeepLove */ = {
+			isa = PBXGroup;
+			children = (
+				B15AE6041C7871580053AE2F /* Resource */,
+				B1E85F491C786B36009CCFBD /* AppDelegate.swift */,
+				B1E85F771C786B70009CCFBD /* DLMNISTViewController.swift */,
+				B136A8651C78E569008D3AE0 /* DLConvViewController.swift */,
+				B15AE6111C7888FE0053AE2F /* Manager */,
+				B1B659A31C91C41B00DCB12E /* Utility */,
+				B15AE6101C7888EC0053AE2F /* Model */,
+				B15AE60C1C7888500053AE2F /* DLShaders.metal */,
+				B1E85F4D1C786B36009CCFBD /* Main.storyboard */,
+				B1E85F501C786B36009CCFBD /* Assets.xcassets */,
+				B1E85F521C786B36009CCFBD /* LaunchScreen.storyboard */,
+				B1E85F551C786B36009CCFBD /* Info.plist */,
+			);
+			path = DeepLove;
+			sourceTree = "<group>";
+		};
+		B1E85F5D1C786B36009CCFBD /* DeepLoveTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E85F5E1C786B36009CCFBD /* DeepLoveTests.swift */,
+				B1E85F601C786B36009CCFBD /* Info.plist */,
+			);
+			path = DeepLoveTests;
+			sourceTree = "<group>";
+		};
+		B1E85F681C786B36009CCFBD /* DeepLoveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E85F691C786B36009CCFBD /* DeepLoveUITests.swift */,
+				B1E85F6B1C786B36009CCFBD /* Info.plist */,
+			);
+			path = DeepLoveUITests;
+			sourceTree = "<group>";
+		};
+		B976E7CEA48444CD1FF6BB1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55DD5A396879BFD15AF41677 /* Pods_DeepLove.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1E85F451C786B36009CCFBD /* DeepLove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E85F6E1C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLove" */;
+			buildPhases = (
+				96279063C2B3491657805E81 /* Check Pods Manifest.lock */,
+				B1E85F421C786B36009CCFBD /* Sources */,
+				B1E85F431C786B36009CCFBD /* Frameworks */,
+				B1E85F441C786B36009CCFBD /* Resources */,
+				10BDF780F7CAA08E8C1320D9 /* Embed Pods Frameworks */,
+				6C16785098D132D3731F29A3 /* Copy Pods Resources */,
+				B1D58ED81C78701E00E2A538 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeepLove;
+			productName = DeepLove;
+			productReference = B1E85F461C786B36009CCFBD /* DeepLove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1E85F591C786B36009CCFBD /* DeepLoveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E85F711C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLoveTests" */;
+			buildPhases = (
+				B1E85F561C786B36009CCFBD /* Sources */,
+				B1E85F571C786B36009CCFBD /* Frameworks */,
+				B1E85F581C786B36009CCFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E85F5C1C786B36009CCFBD /* PBXTargetDependency */,
+			);
+			name = DeepLoveTests;
+			productName = DeepLoveTests;
+			productReference = B1E85F5A1C786B36009CCFBD /* DeepLoveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1E85F641C786B36009CCFBD /* DeepLoveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1E85F741C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLoveUITests" */;
+			buildPhases = (
+				B1E85F611C786B36009CCFBD /* Sources */,
+				B1E85F621C786B36009CCFBD /* Frameworks */,
+				B1E85F631C786B36009CCFBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E85F671C786B36009CCFBD /* PBXTargetDependency */,
+			);
+			name = DeepLoveUITests;
+			productName = DeepLoveUITests;
+			productReference = B1E85F651C786B36009CCFBD /* DeepLoveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1E85F3E1C786B36009CCFBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = piyory;
+				TargetAttributes = {
+					B1E85F451C786B36009CCFBD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 355WN9QWU5;
+					};
+					B1E85F591C786B36009CCFBD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 355WN9QWU5;
+						TestTargetID = B1E85F451C786B36009CCFBD;
+					};
+					B1E85F641C786B36009CCFBD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 355WN9QWU5;
+						TestTargetID = B1E85F451C786B36009CCFBD;
+					};
+				};
+			};
+			buildConfigurationList = B1E85F411C786B36009CCFBD /* Build configuration list for PBXProject "DeepLove" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1E85F3D1C786B36009CCFBD;
+			productRefGroup = B1E85F471C786B36009CCFBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1E85F451C786B36009CCFBD /* DeepLove */,
+				B1E85F591C786B36009CCFBD /* DeepLoveTests */,
+				B1E85F641C786B36009CCFBD /* DeepLoveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1E85F441C786B36009CCFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15AE6091C7871D60053AE2F /* mnist100.json in Resources */,
+				B15AE6151C789DC80053AE2F /* weights.json in Resources */,
+				B16F078C1C95DAF0003A3633 /* nonen.jpg in Resources */,
+				B1E85F541C786B36009CCFBD /* LaunchScreen.storyboard in Resources */,
+				B1E7EDE21C797D3E007BBD71 /* minipple.jpg in Resources */,
+				B1E85F511C786B36009CCFBD /* Assets.xcassets in Resources */,
+				B1D916F01C931969000A1974 /* tomato.jpg in Resources */,
+				B15AE6071C7871C40053AE2F /* apple.jpg in Resources */,
+				B1E85F4F1C786B36009CCFBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F581C786B36009CCFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F631C786B36009CCFBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10BDF780F7CAA08E8C1320D9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLove/Pods-DeepLove-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C16785098D132D3731F29A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DeepLove/Pods-DeepLove-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96279063C2B3491657805E81 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1E85F421C786B36009CCFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B136A8661C78E569008D3AE0 /* DLConvViewController.swift in Sources */,
+				B15AE60B1C7878380053AE2F /* DLImageUtility.swift in Sources */,
+				B1E85F781C786B70009CCFBD /* DLMNISTViewController.swift in Sources */,
+				B15AE60D1C7888500053AE2F /* DLShaders.metal in Sources */,
+				B1E85F7D1C786E11009CCFBD /* DLLayer.swift in Sources */,
+				B1E85F4A1C786B36009CCFBD /* AppDelegate.swift in Sources */,
+				B15AE6131C7893800053AE2F /* DLNetworkManager.swift in Sources */,
+				B1E85F811C786EDB009CCFBD /* DLDataUtility.swift in Sources */,
+				B15AE60F1C7888C20053AE2F /* DLMetalManager.swift in Sources */,
+				B1E85F7A1C786BAA009CCFBD /* DLMetalDevice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F561C786B36009CCFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E85F5F1C786B36009CCFBD /* DeepLoveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1E85F611C786B36009CCFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E85F6A1C786B36009CCFBD /* DeepLoveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1E85F5C1C786B36009CCFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E85F451C786B36009CCFBD /* DeepLove */;
+			targetProxy = B1E85F5B1C786B36009CCFBD /* PBXContainerItemProxy */;
+		};
+		B1E85F671C786B36009CCFBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1E85F451C786B36009CCFBD /* DeepLove */;
+			targetProxy = B1E85F661C786B36009CCFBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1E85F4D1C786B36009CCFBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E85F4E1C786B36009CCFBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1E85F521C786B36009CCFBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1E85F531C786B36009CCFBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1E85F6C1C786B36009CCFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1E85F6D1C786B36009CCFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1E85F6F1C786B36009CCFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 637756C7EB15E22D61392F0E /* Pods-DeepLove.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1E85F701C786B36009CCFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A83F4BD65BA0AB0A4E237591 /* Pods-DeepLove.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DeepLove/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1E85F721C786B36009CCFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepLoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLove.app/DeepLove";
+			};
+			name = Debug;
+		};
+		B1E85F731C786B36009CCFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DeepLoveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLoveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeepLove.app/DeepLove";
+			};
+			name = Release;
+		};
+		B1E85F751C786B36009CCFBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepLove;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B1E85F761C786B36009CCFBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DeepLoveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PYR.DeepLoveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DeepLove;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1E85F411C786B36009CCFBD /* Build configuration list for PBXProject "DeepLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E85F6C1C786B36009CCFBD /* Debug */,
+				B1E85F6D1C786B36009CCFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E85F6E1C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E85F6F1C786B36009CCFBD /* Debug */,
+				B1E85F701C786B36009CCFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E85F711C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLoveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E85F721C786B36009CCFBD /* Debug */,
+				B1E85F731C786B36009CCFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1E85F741C786B36009CCFBD /* Build configuration list for PBXNativeTarget "DeepLoveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1E85F751C786B36009CCFBD /* Debug */,
+				B1E85F761C786B36009CCFBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1E85F3E1C786B36009CCFBD /* Project object */;
+}
